@@ -33,6 +33,7 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
     <Box
       flex={false}
       focusIndicator={false}
+      hoverIndicator='light-2'
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       onClick={onClick}

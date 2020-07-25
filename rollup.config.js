@@ -68,11 +68,9 @@ export default [
       file: packageJSON.browser,
       format: "umd",
       sourcemap: true,
-      name: "reactSampleComponentsLibrary",
+      name: "forge-core",
       globals: {
         react: "React",
-        "@emotion/styled": "styled",
-        "@emotion/core": "core"
       }
     },
     plugins: [
