@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { Box, Drop } from 'grommet'
-// import './tooltip.css'
+import './tooltip.css'
 
 export function TooltipContent({children, background, align, targetRef, side, ...props}) {
   return (

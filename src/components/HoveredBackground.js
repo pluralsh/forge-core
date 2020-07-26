@@ -5,6 +5,7 @@ import {normalizeColor, colorIsDark} from './colors'
 
 
 const hoverStyle = css`
+  outline: none !important;
   ${props => {
     let color = normalizeColor('brand', props.theme)
     let isDark = colorIsDark(color)
@@ -24,6 +25,7 @@ const hoverStyle = css`
 `;
 
 const accentHover = css`
+  outline: none !important;
   &:hover {
     color: ${props => normalizeColor('focus', props.theme)};
   }
@@ -34,6 +36,7 @@ const accentHover = css`
 `;
 
 const sidebarHover = css`
+  outline: none !important;
   ${props => {
     const color = normalizeColor('sidebarHover', props.theme)
     const isDark = colorIsDark(color)
@@ -56,13 +59,10 @@ const sidebarHover = css`
       `}
     `
   }}
-  &:hover {
-    background: ${props => normalizeColor('sidebarHover', props.theme)}
-    color:
-  }
 `;
 
 const highlightHover = css`
+  outline: none !important;
   ${props => {
     const textColor = normalizeColor('focusText', props.theme)
     const border = props.border ? `border: 1px solid ${textColor};` : null

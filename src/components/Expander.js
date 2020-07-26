@@ -10,7 +10,7 @@ function Trigger({text, textSize, open}) {
       pad={{horizontal: 'small', vertical: 'xsmall'}}
       onMouseLeave={() => setHover(false)}
       onMouseEnter={() => setHover(true)}
-      style={{cursor: 'pointer'}}
+      style={{cursor: 'pointer', outline: 'none'}}
       background={hover ? 'light-3' : null}
       direction='row'>
       <Box width='100%' justify='center' pad={{vertical: 'small'}}>

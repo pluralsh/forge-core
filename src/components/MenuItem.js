@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { HoveredBackground } from './HoveredBackground'
-import {Box, Text} from 'grommet'
-import {FormNext} from 'grommet-icons'
+import { Box, Text, ThemeContext } from 'grommet'
+import { FormNext } from 'grommet-icons'
+import { colorIsDark, normalizeColor } from './colors'
+import './menu-item.css'
 
 const ITEM_PADDING = {vertical: 'xsmall', left: 'small', right: 'xsmall'}
 
-export function SubMenu(props) {
-  const {text, setAlternate, children, ...rest} = props
+export function SubMenu({text, setAlternate, children, ...rest}) {
   return (
     <MenuItem onClick={() => setAlternate(children)} direction='row' {...rest}>
       <Box width='100%'>
@@ -20,21 +21,21 @@ export function SubMenu(props) {
 }
 
 
-export function MenuItem(props) {
-  const {onClick, children, ...rest} = props
+export function MenuItem({onClick, children, hover, ...rest}) {
+  const theme = useContext(ThemeContext)
+  const dark = colorIsDark(normalizeColor(hover || 'brand', theme))
   return (
     <Box pad={{horizontal: 'xxsmall'}}>
-      <HoveredBackground>
-        <Box
-          hoverable
-          round='xsmall'
-          style={{cursor: 'pointer'}}
-          pad={ITEM_PADDING}
-          onClick={() => onClick && onClick()}
-          {...rest}>
-          {children}
-        </Box>
-      </HoveredBackground>
+      <Box
+        className={dark ? 'menu-item-dark' : null}
+        round='xsmall'
+        focusIndicator={false}
+        hoverIndicator={hover || 'brand'}
+        pad={ITEM_PADDING}
+        onClick={() => onClick && onClick()}
+        {...rest}>
+        {children}
+      </Box>
     </Box>
   )
 }

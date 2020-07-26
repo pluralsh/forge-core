@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
-import {Layer, Box, Text} from 'grommet'
-import {FormClose} from 'grommet-icons'
+import React, { useState } from 'react'
+import { Layer, Box, Text } from 'grommet'
+import { FormClose } from 'grommet-icons'
 
 export function ModalHeader({text, round, setOpen}) {
-  const [hover, setHover] = useState(false)
   return (
     <Box
+      flex={false}
       direction='row'
       border='bottom'
       elevation='xxsmall'
@@ -15,14 +15,15 @@ export function ModalHeader({text, round, setOpen}) {
         <Text size='small' weight='bold'>{text}</Text>
       </Box>
       <Box
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-        background={hover ? 'light-3' : null}
+        flex={false}
+        hoverIndicator='light-3'
+        focusIndicator={false}
         width='30px'
         round='xsmall'
         align='center'
-        justify='center'>
-        <FormClose style={{cursor: 'pointer'}} onClick={() => setOpen(false)} />
+        justify='center'
+        onClick={() => setOpen(false)}>
+        <FormClose />
       </Box>
     </Box>
   )

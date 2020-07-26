@@ -42,103 +42,11 @@ export default [
       external(),
       resolve(),
       common
-    ]
-  },
-  {
-    input,
-    output: {
-      file: minifyExtension(packageJSON.main),
-      format: "cjs",
-      sourcemap: true
-    },
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      }),
-      external(),
-      resolve(),
-      common,
-      uglify()
-    ]
-  },
-  // UMD
-  {
-    input,
-    output: {
-      file: packageJSON.browser,
-      format: "umd",
-      sourcemap: true,
-      name: "forge-core",
-      globals: {
-        react: "React",
-      }
-    },
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      }),
-      external(),
-      resolve(),
-      common
-    ]
-  },
-  {
-    input,
-    output: {
-      file: minifyExtension(packageJSON.browser),
-      format: "umd",
-      sourcemap: true,
-      name: "reactSampleComponentsLibrary",
-      globals: {
-        react: "React",
-        "@emotion/styled": "styled",
-        "@emotion/core": "core"
-      }
-    },
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      }),
-      external(),
-      resolve(),
-      common,
-      terser()
-    ]
-  },
-  // ES
-  {
-    input,
-    output: {
-      file: packageJSON.module,
-      format: "es",
-      sourcemap: true,
-      exports: "named"
-    },
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      }),
-      external(),
-      resolve(),
-      common
-    ]
-  },
-  {
-    input,
-    output: {
-      file: minifyExtension(packageJSON.module),
-      format: "es",
-      sourcemap: true,
-      exports: "named"
-    },
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      }),
-      external(),
-      resolve(),
-      common,
-      terser()
-    ]
+    ],
+    external: ['react', 'react-dom'],
+    globals: {
+      react: 'React',
+      'react-dom': 'ReactDOM'
+    }
   }
 ];

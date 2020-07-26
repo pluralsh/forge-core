@@ -7,7 +7,8 @@ module.exports = {
   output: {
     path: path.resolve('dist'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2',
+    libraryTarget: 'umd',
+    library: "forge-core"
     // globalObject: 'this',
     // umdNamedDefine: true,
   },
@@ -25,17 +26,26 @@ module.exports = {
         }
       }, {
         test: /\.*css$/,
-        use : ExtractTextPlugin.extract({
-            fallback : 'style-loader',
-            use : [
-                'css-loader',
-                'sass-loader'
-            ]
-        })
+        include: path.resolve(__dirname, 'src'),
+        exclude: /(node_modules|bower_components|build)/,
+        use : [
+          'style-loader',
+          'css-loader'
+        ]
        },
     ]
   },
   externals: {
-    'react': 'commonjs react'
+    "react": "react",
+    "react-dom": "react-dom",
+    "styled-components": "styled-components",
+    "grommet": "grommet",
+    "grommet-icons": "grommet-icons",
+    'react-is': 'react-is',
+    'react-router-dom': 'react-router-dom',
+    'lodash': 'lodash',
+    'react-collapsible': 'react-collapsible',
+    'react-copy-to-clipboard': 'react-copy-to-clipboard',
+    'react-spinners': 'react-spinners'
   }
 };

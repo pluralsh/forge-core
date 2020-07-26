@@ -1,0 +1,4 @@
+.menu-item-dark:hover svg {
+  fill: white !important;
+  stroke: white !important;
+}
