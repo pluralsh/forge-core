@@ -9,7 +9,7 @@ function MaybeWrap({noWrap, children, hover, setAlternate}) {
     <Box gap='xsmmall' animation={slideAnimate('slideRight')}>
       {children}
       <Box pad={{vertical: 'xsmall'}} border='top'>
-        <MenuItem direction='row' align='center' hover={hover} onClick={() => setAlternate(null)}>
+        <MenuItem direction='row' gap='xsmall' align='center' hover={hover} onClick={() => setAlternate(null)}>
           <FormPrevious size='15px' />
           <Text size='small'>return to menu</Text>
         </MenuItem>

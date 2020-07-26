@@ -10,7 +10,7 @@ const ITEM_PADDING = {vertical: 'xsmall', left: 'small', right: 'xsmall'}
 export function SubMenu({text, setAlternate, children, ...rest}) {
   return (
     <MenuItem onClick={() => setAlternate(children)} direction='row' {...rest}>
-      <Box width='100%'>
+      <Box width='100%' direction='row' align='center'>
         <Text size='small'>{text}</Text>
       </Box>
       <Box width='20px' align='center' justify='center'>
