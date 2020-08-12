@@ -33,7 +33,7 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
     <Box
       flex={false}
       focusIndicator={false}
-      hoverIndicator='light-2'
+      hoverIndicator='light-1'
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       onClick={onClick}
@@ -43,10 +43,12 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
       justify='center'
       elevation={hover ? 'small' : null}
       background='#fff'
+      gap='xsmall'
       pad={pad || BUTTON_PAD}
       round={round || 'xsmall'}
       {...rest}>
-      {icon ? icon : <Text size={textSize || 'small'}>{label}</Text>}
+      {icon}
+      <Text size={textSize || 'small'}>{label}</Text>
     </Box>
     </>
   )
@@ -59,8 +61,7 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
     {error && <ErrorPill error={error} />}
     <Box
       focusIndicator={false}
-      onClick={() => !disabled && onClick && onClick()}
-      style={!disabled ? {cursor: 'pointer'} : null}
+      onClick={disabled ? null : onClick}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       pad={pad || BUTTON_PAD}
@@ -73,7 +74,8 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       elevation={hover && !disabled ? 'small' : null}
       {...rest}>
       {loading && <BeatLoader color='white' size={8} />}
-      {icon ? icon : <Text size={textSize || 'small'}>{label}</Text>}
+      {icon}
+      <Text size={textSize || 'small'}>{label}</Text>
     </Box>
     </>
   )

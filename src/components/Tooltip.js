@@ -13,7 +13,7 @@ export function TooltipContent({children, background, align, targetRef, side, ..
         direction='row'
         align='center'
         justify='center'
-        round='small'
+        round='xsmall'
         background={background || 'dark-1'}
         pad='xsmall'
         {...props}>

@@ -3,10 +3,10 @@ import { Box, Text } from 'grommet'
 import { FormPrevious } from 'grommet-icons'
 import { MenuItem } from './MenuItem'
 
-function MaybeWrap({noWrap, children, hover, setAlternate}) {
+function MaybeWrap({noWrap, children, hover, setAlternate, ...props}) {
   if (noWrap) return children
   return (
-    <Box gap='xsmmall' animation={slideAnimate('slideRight')}>
+    <Box gap='xsmmall' animation={slideAnimate('slideRight')} {...props}>
       {children}
       <Box pad={{vertical: 'xsmall'}} border='top'>
         <MenuItem direction='row' gap='xsmall' align='center' hover={hover} onClick={() => setAlternate(null)}>
@@ -34,6 +34,6 @@ export function InterchangeableBox({children, noWrap, hover, ...props}) {
     <Box animation={loaded && !noWrap ? slideAnimate('slideLeft') : null} {...props}>
       {children(wrappedSetAlternate)}
     </Box>
-    : <MaybeWrap noWrap={noWrap} setAlternate={wrappedSetAlternate} hover={hover}>{alternate}</MaybeWrap>
+    : <MaybeWrap noWrap={noWrap} setAlternate={wrappedSetAlternate} hover={hover} {...props}>{alternate}</MaybeWrap>
   )
 }

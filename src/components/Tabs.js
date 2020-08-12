@@ -40,7 +40,7 @@ export function TabContent({name, children}) {
   return children
 }
 
-export function Tabs({onTabChange, defaultTab, headerEnd, children}) {
+export function Tabs({onTabChange, defaultTab, headerEnd, children, border}) {
   const [tab, setTabInner] = useState(defaultTab)
   function setTab(tab) {
     onTabChange && onTabChange(tab)
@@ -53,7 +53,7 @@ export function Tabs({onTabChange, defaultTab, headerEnd, children}) {
         <Box
           style={{minHeight: '46px'}}
           direction='row'
-          border={{side: 'bottom', color: BORDER_COLOR}}
+          border={{side: 'bottom', color: border || BORDER_COLOR}}
           pad={{right: 'xsmall'}}
           align='center'>
           <Box width='100%' direction='row' gap='small'>

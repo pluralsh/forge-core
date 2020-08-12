@@ -7,7 +7,7 @@ export function ModalHeader({text, round, setOpen}) {
     <Box
       flex={false}
       direction='row'
-      border='bottom'
+      border={{side: 'bottom', color: 'light-6'}}
       elevation='xxsmall'
       round={round || {size: '4px', corner: 'top'}}
       pad='small'>

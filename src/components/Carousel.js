@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import { FormNext, FormPrevious } from 'grommet-icons'
 import CarouselInner from '@brainhubeu/react-carousel'
 import { lookahead } from '../utils/array'
