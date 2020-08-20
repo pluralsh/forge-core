@@ -6,6 +6,7 @@ export function TooltipContent({children, background, align, targetRef, side, ..
   return (
     <Drop
       plain
+      stretch={false}
       className={`tooltip ${side || 'bottom'}`}
       align={align || {bottom: 'top'}}
       target={targetRef.current}>

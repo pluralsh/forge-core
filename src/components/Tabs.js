@@ -7,10 +7,10 @@ const ACTIVE_BORDER = {side: 'bottom', color: 'brand', size: '2px'}
 
 export const BORDER_COLOR = 'light-6'
 
-export function TabHeaderItem({name, children}) {
+export function TabHeaderItem({name, children, border}) {
   const [hover, setHover] = useState(false)
   const {setTab, tab} = useContext(TabContext)
-
+  const borderAttrs = border || {}
   return (
     <Box
       focusIndicator={false}
@@ -19,7 +19,7 @@ export function TabHeaderItem({name, children}) {
       onClick={() => setTab(name)}
       direction='row'
       pad='small'
-      border={tab === name ? ACTIVE_BORDER : (hover ? HOVER_BORDER : null)}>
+      border={tab === name ? {...ACTIVE_BORDER, ...borderAttrs} : (hover ? {...HOVER_BORDER, ...borderAttrs} : null)}>
       {children}
     </Box>
   )
