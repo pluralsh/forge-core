@@ -54,7 +54,7 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
   )
 }
 
-export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, ...rest}) {
+export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, flat, ...rest}) {
   const [hover, setHover] = useState(false)
   return (
     <>
@@ -71,7 +71,7 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       justify='center'
       round={round || 'xsmall'}
       background={disabled ? 'light-6' : (background || 'action')}
-      elevation={hover && !disabled ? 'small' : null}
+      elevation={hover && !disabled && !flat ? 'small' : null}
       {...rest}>
       {loading && <BeatLoader color='white' size={8} />}
       {icon}
