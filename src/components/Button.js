@@ -60,6 +60,7 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
     <>
     {error && <ErrorPill error={error} />}
     <Box
+      flex={false}
       focusIndicator={false}
       onClick={disabled ? null : onClick}
       onMouseEnter={() => setHover(true)}
