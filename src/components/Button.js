@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
-import { Box, Text } from 'grommet'
+import React, { useContext, useState } from 'react'
+import { Box, Text, ThemeContext } from 'grommet'
 import { FormClose } from 'grommet-icons'
 import { BeatLoader } from 'react-spinners'
 import { Errors } from './Error'
 import { Pill } from './Pill'
+import { shadeColor } from '../utils/color'
+import { normalizeColor } from 'grommet/utils'
 
 const BUTTON_PAD = {horizontal: 'small', vertical: 'xsmall'}
 
@@ -54,8 +56,12 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
   )
 }
 
-export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, flat, ...rest}) {
+export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, flat, shade, ...rest}) {
   const [hover, setHover] = useState(false)
+  const theme = useContext(ThemeContext)
+  const bg = background || 'action'
+  const darkened = shadeColor(normalizeColor(bg, theme), shade || -5)
+
   return (
     <>
     {error && <ErrorPill error={error} />}
@@ -72,6 +78,7 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       justify='center'
       round={round || 'xsmall'}
       background={disabled ? 'light-6' : (background || 'action')}
+      hoverIndicator={darkened}
       elevation={hover && !disabled && !flat ? 'small' : null}
       {...rest}>
       {loading && <BeatLoader color='white' size={8} />}
