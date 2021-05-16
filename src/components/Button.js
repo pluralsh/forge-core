@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useMemo, useState } from 'react'
 import { Box, Text, ThemeContext } from 'grommet'
 import { FormClose } from 'grommet-icons'
 import { BeatLoader } from 'react-spinners'
@@ -28,7 +28,6 @@ function ErrorPill({error}) {
 }
 
 export function SecondaryButton({onClick, round, label, pad, error, icon, textSize, ...rest}) {
-  const [hover, setHover] = useState(null)
   return (
     <>
     {error && <ErrorPill error={error} />}
@@ -36,14 +35,11 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
       flex={false}
       focusIndicator={false}
       hoverIndicator='light-1'
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
       onClick={onClick}
       direction='row'
       border={{color: 'light-6'}}
       align='center'
       justify='center'
-      elevation={hover ? 'small' : null}
       background='#fff'
       gap='xsmall'
       pad={pad || BUTTON_PAD}
@@ -56,11 +52,10 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
   )
 }
 
-export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, flat, shade, ...rest}) {
-  const [hover, setHover] = useState(false)
+export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, shade, ...rest}) {
   const theme = useContext(ThemeContext)
   const bg = background || 'action'
-  const darkened = shadeColor(normalizeColor(bg, theme), shade || -5)
+  const darkened = useMemo(() => shadeColor(normalizeColor(bg, theme), shade || -5), [bg, theme, shade])
 
   return (
     <>
@@ -69,8 +64,6 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       flex={false}
       focusIndicator={false}
       onClick={disabled ? null : onClick}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
       pad={pad || BUTTON_PAD}
       direction='row'
       gap='xsmall'
@@ -79,7 +72,6 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       round={round || 'xsmall'}
       background={disabled ? 'light-6' : (background || 'action')}
       hoverIndicator={darkened}
-      elevation={hover && !disabled && !flat ? 'small' : null}
       {...rest}>
       {loading && <BeatLoader color='white' size={8} />}
       {icon}
