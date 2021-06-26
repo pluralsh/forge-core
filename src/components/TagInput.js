@@ -1,10 +1,15 @@
-import React, { Component, createRef, useState } from 'react'
-import { Box, Text, Keyboard, TextInput, Button } from 'grommet'
+import React, { Component, createRef, useContext, useMemo, useState } from 'react'
+import { Box, Text, Keyboard, TextInput, Button, ThemeContext } from 'grommet'
 import { FormClose } from 'grommet-icons'
+import { shadeColor } from '../utils/color'
+import { normalizeColor } from 'grommet/utils';
 
 export const Tag = ({ children, onRemove, ...rest }) => {
+  const theme = useContext(ThemeContext)
   const [hover, setHover] = useState(false)
+  const tagMedium = useMemo(() => shadeColor(normalizeColor('tagLight', theme), -5), [theme])
   const padding = {horizontal: 'xxsmall', vertical: 'xxsmall'}
+  
   const tag = (
     <Box
       onMouseEnter={() => setHover(true)}
@@ -13,7 +18,7 @@ export const Tag = ({ children, onRemove, ...rest }) => {
       direction="row"
       align="center"
       pad={{horizontal: 'xxsmall'}}
-      background={hover ? 'tagMedium' : 'tagLight'}
+      background={hover ? tagMedium : 'tagLight'}
       margin={{ vertical: "xxsmall" }}
       {...rest}
     >

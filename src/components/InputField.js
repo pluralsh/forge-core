@@ -1,18 +1,47 @@
 import React from 'react'
 import { Box, Text, TextInput } from 'grommet'
+import styled from 'styled-components';
+import { normalizeColor } from 'grommet/utils';
 
-export function ResponsiveInput({label, name, type, value, onChange, placeholder}) {
+const BORDER = 'input-border'
+
+const InputContainer = styled.td`
+  &:focus-within {
+    outline: none;
+    border-color: ${props => normalizeColor('brand', props.theme)};
+  }
+  border: 1px solid ${props => normalizeColor(BORDER, props.theme)};
+  border-radius: 0px 3px 3px 0px;
+  width: 99%;
+`;
+
+const LabelContainer = styled.td`
+  border-color: ${props => normalizeColor(BORDER, props.theme)};
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  background-color: ${props => normalizeColor('label', props.theme)};
+  white-space: nowrap;
+  border-radius: 3px 0px 0px 3px;
+`
+
+export function ResponsiveInput({label, name, type, value, placeholder, onChange}) {
   return (
-    <ResponsiveInputContainer
-      label={label}
-      content={
+    <tr>
+      <LabelContainer>
+        <Box pad={{horizontal: 'small'}}>
+          <Text weight={500} size='small'>{label}</Text>
+        </Box>
+      </LabelContainer>
+      <InputContainer>
         <TextInput
           name={name || 'name'}
+          plain
           type={type}
           value={value}
-          onChange={onChange}
-          placeholder={placeholder} />
-      } />
+          placeholder={placeholder}
+          onChange={onChange} />
+      </InputContainer>
+    </tr>
   )
 }
 
@@ -31,7 +60,7 @@ export function ResponsiveInputContainer({label, content}) {
 
 export function InputCollection({children}) {
   return (
-    <table width='100%' style={{borderCollapse: 'separate', borderSpacing: '5px 8px'}}>
+    <table width='100%' style={{borderCollapse: 'separate', borderSpacing: '0px 8px'}}>
       <tbody>{children}</tbody>
     </table>
   )
