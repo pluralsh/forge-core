@@ -93,8 +93,7 @@ export class TagInput extends Component {
           fill='horizontal'
           direction="row"
           align="center"
-          border="all"
-          background='white'
+          border={this.props.noborder ? null : "all"}
           ref={this.boxRef}
           round={this.props.round}
         >
