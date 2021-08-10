@@ -27,7 +27,9 @@ function ErrorPill({error}) {
   )
 }
 
-export function SecondaryButton({onClick, round, label, pad, error, icon, textSize, ...rest}) {
+export function SecondaryButton({onClick, round, label, pad, error, icon, textSize, weight: textWeight, ...rest}) {
+  const theme = useContext(ThemeContext)
+  const weight = textWeight || (theme.button && theme.button.weight) || 450
   return (
     <>
     {error && <ErrorPill error={error} />}
@@ -46,16 +48,17 @@ export function SecondaryButton({onClick, round, label, pad, error, icon, textSi
       round={round || 'xsmall'}
       {...rest}>
       {icon}
-      <Text size={textSize || 'small'}>{label}</Text>
+      <Text size={textSize || 'small'} weight={weight}>{label}</Text>
     </Box>
     </>
   )
 }
 
-export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, shade, ...rest}) {
+export function Button({pad, disabled, onClick, label, loading, textSize, error, icon, round, background, shade, weight: textWeight, ...rest}) {
   const theme = useContext(ThemeContext)
   const bg = background || 'action'
   const darkened = useMemo(() => shadeColor(normalizeColor(bg, theme), shade || -5), [bg, theme, shade])
+  const weight = textWeight || (theme.button && theme.button.weight) || 450
 
   return (
     <>
@@ -75,7 +78,7 @@ export function Button({pad, disabled, onClick, label, loading, textSize, error,
       {...rest}>
       {loading && <BeatLoader color='white' size={8} />}
       {icon}
-      <Text size={textSize || 'small'}>{label}</Text>
+      <Text size={textSize || 'small'} weight={weight}>{label}</Text>
     </Box>
     </>
   )
