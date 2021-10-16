@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Box, Text } from 'grommet'
-import { Copy, Close } from 'grommet-icons'
+import { Copy, Close, Checkmark } from 'grommet-icons'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { Pill } from './Pill'
 
@@ -13,6 +13,21 @@ function trimmed(link) {
   return link
 }
 
+function CopiedPill({text, close}) {
+  return (
+    <Pill background='white' onClose={close} border={{color: 'tone-light'}}>
+      <Box direction='row' align='center' gap='small'>
+        <Checkmark size='15px' color='success' />
+        <Text size='small' weight={500}>{text}</Text>
+        <Box flex={false} pad='xsmall' round='xsmall' align='center' justify='center'
+             onClick={close} hoverIndicator='tone-light'>
+          <Close size='15px' />
+        </Box>
+      </Box>
+    </Pill>
+  )
+}
+
 export function WithCopy({children, text, pillText}) {
   const [display, setDisplay] = useState(false)
   return (
@@ -20,14 +35,7 @@ export function WithCopy({children, text, pillText}) {
     <CopyToClipboard text={text} onCopy={() => setDisplay(true)}>
       {children}
     </CopyToClipboard>
-    {display && (
-      <Pill background='status-ok' onClose={() => setDisplay(false)}>
-        <Box direction='row' align='center' gap='small'>
-          <Text>{pillText}</Text>
-          <Close style={{cursor: 'pointer'}} size='15px' onClick={() => setDisplay(false)} />
-        </Box>
-      </Pill>
-    )}
+    {display && <CopiedPill text={pillText} close={() => setDisplay(false)} />}
     </>
   )
 }
@@ -54,14 +62,7 @@ export function Copyable({text, pillText, displayText}) {
         )}
       </Box>
     </CopyToClipboard>
-    {display && (
-      <Pill background='status-ok' onClose={() => setDisplay(false)}>
-        <Box direction='row' align='center' gap='small'>
-          <Text>{pillText}</Text>
-          <Close style={{cursor: 'pointer'}} size='15px' onClick={() => setDisplay(false)} />
-        </Box>
-      </Pill>
-    )}
+    {display && <CopiedPill text={pillText} close={() => setDisplay(false)} />}
     </>
   )
 }

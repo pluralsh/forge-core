@@ -1,0 +1,18 @@
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16"  xml:space="preserve">
+<g id="artwork">
+	<g>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="6.1" y1="2.3" x2="14.1" y2="2.3"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="6.1" y1="8" x2="14.1" y2="8"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="6.1" y1="13.7" x2="14.1" y2="13.7"/>
+		<path style="fill:#FFFFFF;" d="M1,0.2c-0.3,0-0.5,0.2-0.5,0.5v3.7h3.7c0.3,0,0.5-0.2,0.5-0.5V0.2H1z M2.6,3.4
+			C2,3.4,1.5,2.9,1.5,2.3c0-0.6,0.5-1.2,1.2-1.2c0.6,0,1.2,0.5,1.2,1.2C3.8,2.9,3.2,3.4,2.6,3.4z"/>
+		<path style="fill:#FFFFFF;" d="M1,5.9c-0.3,0-0.5,0.2-0.5,0.5v3.7h3.7c0.3,0,0.5-0.2,0.5-0.5V5.9H1z M2.6,9.2C2,9.2,1.5,8.6,1.5,8
+			c0-0.6,0.5-1.2,1.2-1.2c0.6,0,1.2,0.5,1.2,1.2C3.8,8.6,3.2,9.2,2.6,9.2z"/>
+		<path style="fill:#FFFFFF;" d="M1,11.6c-0.3,0-0.5,0.2-0.5,0.5v3.7h3.7c0.3,0,0.5-0.2,0.5-0.5v-3.7H1z M2.6,14.9
+			c-0.6,0-1.2-0.5-1.2-1.2c0-0.6,0.5-1.2,1.2-1.2c0.6,0,1.2,0.5,1.2,1.2C3.8,14.4,3.2,14.9,2.6,14.9z"/>
+	</g>
+</g>
+</svg>

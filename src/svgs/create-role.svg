@@ -1,0 +1,18 @@
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16"  xml:space="preserve">
+<g id="artwork">
+	<g>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="0.7" y1="3.2" x2="5.5" y2="3.2"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="3.1" y1="5.7" x2="3.1" y2="0.8"/>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M4.6,14.7h6.8c1.2,0,2.2-1,2.2-2.2V3.4"/>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M15.9,1.2H9.1c-1.2,0-2.2,1-2.2,2.2v8.9"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8.7" y1="3.6" x2="12.2" y2="3.6"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8.7" y1="5.5" x2="11.1" y2="5.5"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8.7" y1="7.4" x2="12.2" y2="7.4"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8.7" y1="9.3" x2="11.6" y2="9.3"/>
+		<circle style="fill:#FFFFFF;" cx="11.6" cy="12.1" r="0.8"/>
+	</g>
+</g>
+</svg>

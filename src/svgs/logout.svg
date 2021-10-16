@@ -1,0 +1,13 @@
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16"  xml:space="preserve">
+<g id="artwork">
+	<g>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M2.1,11.2V2.4c0-0.5,0.4-1,1-1h7.2"/>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M10.3,11.2v2.1c0,0.5-0.4,1-1,1H1.7"/>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M6,8.7V7.5c0-0.8,0.6-1.4,1.4-1.4h7.2"/>
+		<polyline style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" points="11.6,3 14.7,6.2 11.6,9.3 		"/>
+	</g>
+</g>
+</svg>

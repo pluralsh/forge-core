@@ -5,8 +5,6 @@ const TabContext = React.createContext({})
 const HOVER_BORDER = {side: 'bottom', color: 'dark-6', size: '2px'}
 const ACTIVE_BORDER = {side: 'bottom', color: 'brand', size: '2px'}
 
-export const BORDER_COLOR = 'light-6'
-
 export function TabHeaderItem({name, children, border}) {
   const [hover, setHover] = useState(false)
   const {setTab, tab} = useContext(TabContext)
@@ -53,7 +51,7 @@ export function Tabs({onTabChange, defaultTab, headerEnd, children, border}) {
         <Box
           style={{minHeight: '46px'}}
           direction='row'
-          border={{side: 'bottom', color: border || BORDER_COLOR}}
+          border={{side: 'bottom', color: border}}
           pad={{right: 'xsmall'}}
           align='center'>
           <Box width='100%' direction='row' gap='small'>

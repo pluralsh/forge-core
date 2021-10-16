@@ -1,0 +1,13 @@
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16"  xml:space="preserve">
+<g id="artwork">
+	<g>
+		<path style="fill:#FFFFFF;" d="M4,15H1.5V6c0-0.4,0.3-0.7,0.7-0.7H4V15z"/>
+		<path style="fill:#FFFFFF;" d="M9,15H6.4V2.9c0-0.4,0.3-0.7,0.7-0.7H9V15z"/>
+		<path style="fill:#FFFFFF;" d="M14,15h-2.6V8.4c0-0.4,0.3-0.7,0.7-0.7H14V15z"/>
+		<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="0" y1="15" x2="16" y2="15"/>
+	</g>
+</g>
+</svg>
