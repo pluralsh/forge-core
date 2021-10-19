@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="artwork">
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M0.5,11.7v1.5c0,1.2,1,2.2,2.2,2.2h4.2"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M13.5,9V6.1c0-0.5,0.4-0.9,0.9-0.9H16"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M9.9,5.2h2.3"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M11.7,8.5H1.6C1,8.5,0.5,9,0.5,9.6v1"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M13.5,10.3c0,2.8-2.3,5-5,5"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M8.6,4.4L7.2,5.8H1.6C1.2,5.8,0.8,5.4,0.8,5V2.2"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M0.4,0.7h6.5c0.2,0,0.4,0.1,0.6,0.2l2.7,2.7"/>
+	<circle style="fill:#FFFFFF;" cx="6.4" cy="3.2" r="0.7"/>
+</g>
+</svg>

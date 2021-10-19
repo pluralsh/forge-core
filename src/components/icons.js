@@ -1,50 +1,74 @@
-import React, { useContext } from 'react'
-import { ThemeContext } from 'grommet'
+import React from 'react'
+
 import { Blank } from 'grommet-icons'
-import AccessTokenR from '../svgs/access-tokens.svg'
-import AddGroupR from '../svgs/add-group.svg'
-import AddUserR from '../svgs/add-user.svg'
+import AccessTokenR from '../svgs/key.svg'
+import AddGroupR from '../svgs/+people.svg'
+import AddUserR from '../svgs/+person.svg'
 import AuditsR from '../svgs/audits.svg'
-import BuildsR from '../svgs/builds.svg'
+import BuildsR from '../svgs/crane.svg'
 import ComponentsR from '../svgs/components.svg'
-import ConfigurationR from '../svgs/configuration.svg'
+import ConfigurationR from '../svgs/wrench.svg'
 import CreateRoleR from '../svgs/create-role.svg'
-import CredentialsR from '../svgs/credentials.svg'
+import CredentialsR from '../svgs/ID.svg'
 import DashboardR from '../svgs/dashboard.svg'
 import EditFieldR from '../svgs/edit-field.svg'
-import ExploreR from '../svgs/explore.svg'
-import GraphViewR from '../svgs/graph-view.svg'
-import GroupR from '../svgs/group.svg'
-import IncidentR from '../svgs/incident.svg'
+import ExploreR from '../svgs/magnifying-glass.svg'
+import GraphViewR from '../svgs/graph.svg'
+import GroupR from '../svgs/people.svg'
+import IncidentR from '../svgs/siren.svg'
 import InstallationsR from '../svgs/installations.svg'
 import InstalledR from '../svgs/installed.svg'
+import InstallR from '../svgs/install.svg'
 import InvoicesR from '../svgs/invoices.svg'
-import ListViewR from '../svgs/list-view.svg'
+import ListViewR from '../svgs/list.svg'
 import LogoutR from '../svgs/logout.svg'
 import LogsR from '../svgs/logs.svg'
-import NodesR from '../svgs/nodes.svg'
+import NodesR from '../svgs/servers.svg'
 import OauthR from '../svgs/oauth.svg'
-import PasswordR from '../svgs/password.svg'
-import PaymentMethodsR from '../svgs/payment-methods.svg'
-import PublicKeysR from '../svgs/public-keys.svg'
-import PublicR from '../svgs/public.svg'
-import PublisherR from '../svgs/publisher.svg'
-import ResponsesR from '../svgs/responses.svg'
-import RolesR from '../svgs/roles.svg'
-import ServiceAccountsR from '../svgs/service-accounts.svg'
-import TableViewR from '../svgs/table-view.svg'
+import PasswordR from '../svgs/padlock.svg'
+import PaymentMethodsR from '../svgs/credit-card.svg'
+import PublicKeysR from '../svgs/key-pair.svg'
+import KeyR from '../svgs/key.svg'
+import LinksR from '../svgs/links.svg'
+import PublicR from '../svgs/globe.svg'
+import PublisherR from '../svgs/market.svg'
+import ResponsesR from '../svgs/life-preserver.svg'
+import RolesR from '../svgs/scroll.svg'
+import ServiceAccountsR from '../svgs/bot.svg'
+import TableViewR from '../svgs/table.svg'
 import UpdatesR from '../svgs/updates.svg'
-import UserR from '../svgs/user.svg'
+import UserR from '../svgs/person.svg'
 import WebhooksR from '../svgs/webhooks.svg'
-
-const parseMetricToNum = (string) => parseFloat(string.match(/\d+(\.\d+)?/), 10);
-
-function IconWrapper({size, child, ...props}) {
-  const theme = useContext(ThemeContext)
-  const dimension = `${parseMetricToNum(theme.icon.size[size] || size)}px`
-
-  return React.createElement(child, {...props, width: dimension, height: dimension})
-}
+import BundleR from '../svgs/bundle.svg'
+import CloseR from '../svgs/x.svg'
+import ReloadR from '../svgs/reload.svg'
+import RunbookR from '../svgs/runbook.svg'
+import ChecklistR from '../svgs/checklist.svg'
+import BrowserR from '../svgs/browser.svg'
+import CheckR from '../svgs/check.svg'
+import IDR from '../svgs/ID.svg'
+import LightningR from '../svgs/lightning.svg'
+import LinkoutR from '../svgs/linkout.svg'
+import TrashR from '../svgs/trash-can.svg'
+import EditR from '../svgs/pencil.svg'
+import DeployR from '../svgs/rocket.svg'
+import FolderR from '../svgs/folder.svg'
+import MenuR from '../svgs/hamburger-menu.svg'
+import HistoryR from '../svgs/history.svg'
+import OwnerR from '../svgs/owner.svg'
+import CertificateR from '../svgs/certificate.svg'
+import DockerTagR from '../svgs/docker-tag.svg'
+import DownloadR from '../svgs/download.svg'
+import EmojiHoverR from '../svgs/emoji-hover.svg'
+import EmojiR from '../svgs/emoji.svg'
+import EyeR from '../svgs/eye.svg'
+import FiltersR from '../svgs/filters.svg'
+import FingerprintR from '../svgs/fingerprint.svg'
+import PackageR from '../svgs/package.svg'
+import ShipR from '../svgs/ship.svg'
+import SortAscR from '../svgs/sort-asc.svg'
+import SortDescR from '../svgs/sort-desc.svg'
+import PlanR from '../svgs/plan.svg'
 
 export const Send = (props) => (
   <Blank {...props}>
@@ -55,11 +79,120 @@ export const Send = (props) => (
   </Blank>
 )
 
+export const Plan = (props) => (
+  <Blank {...props}>
+    <PlanR />
+  </Blank>
+)
+
+export const SortAsc = (props) => (
+  <Blank {...props}>
+    <SortAscR />
+  </Blank>
+)
+
+export const SortDesc = (props) => (
+  <Blank {...props}>
+    <SortDescR />
+  </Blank>
+)
+
+export const Ship = (props) => (
+  <Blank {...props}>
+    <ShipR />
+  </Blank>
+)
+
+export const Package = (props) => (
+  <Blank {...props}>
+    <PackageR />
+  </Blank>
+)
+
+export const Fingerprint = (props) => (
+  <Blank {...props}>
+    <FingerprintR />
+  </Blank>
+)
+
+export const Filters = (props) => (
+  <Blank {...props}>
+    <FiltersR />
+  </Blank>
+)
+
+export const Eye = (props) => (
+  <Blank {...props}>
+    <EyeR />
+  </Blank>
+)
+
+export const Emoji = (props) => (
+  <Blank {...props}>
+    <EmojiR />
+  </Blank>
+)
+
+export const EmojiHover = (props) => (
+  <Blank {...props}>
+    <EmojiHoverR />
+  </Blank>
+)
+
+export const Download = (props) => (
+  <Blank {...props}>
+    <DownloadR />
+  </Blank>
+)
+
+export const DockerTag = (props) => (
+  <Blank {...props}>
+    <DockerTagR />
+  </Blank>
+)
+
+export const Certificate = (props) => (
+  <Blank {...props}>
+    <CertificateR />
+  </Blank>
+)
+
+export const Deploy = (props) => (
+  <Blank {...props}>
+    <DeployR />
+  </Blank>
+)
+
+export const Owner = (props) => (
+  <Blank {...props}>
+    <OwnerR />
+  </Blank>
+)
+
+export const History = (props) => (
+  <Blank {...props}>
+    <HistoryR />
+  </Blank>
+)
+
+export const Menu = (props) => (
+  <Blank {...props}>
+    <MenuR />
+  </Blank>
+)
+
+export const Folder = (props) => (
+  <Blank {...props}>
+    <FolderR />
+  </Blank>
+)
+
 export const AccessTokens = (props) => (
   <Blank {...props}>
     <AccessTokenR />
   </Blank>
 )
+
 export const AddGroup = (props) => (
   <Blank {...props}>
     <AddGroupR />
@@ -228,5 +361,95 @@ export const User = (props) => (
 export const Webhooks = (props) => (
   <Blank {...props}>
     <WebhooksR />
+  </Blank>
+)
+
+export const Bundle = (props) => (
+  <Blank {...props}>
+    <BundleR />
+  </Blank>
+)
+
+export const Close = (props) => (
+  <Blank {...props}>
+    <CloseR />
+  </Blank>
+)
+
+export const Key = (props) => (
+  <Blank {...props}>
+    <KeyR />
+  </Blank>
+)
+
+export const Links = (props) => (
+  <Blank {...props}>
+    <LinksR />
+  </Blank>
+)
+
+export const Reload = (props) => (
+  <Blank {...props}>
+    <ReloadR />
+  </Blank>
+)
+
+export const Runbook = (props) => (
+  <Blank {...props}>
+    <RunbookR />
+  </Blank>
+)
+
+export const Checklist = (props) => (
+  <Blank {...props}>
+    <ChecklistR />
+  </Blank>
+)
+
+export const Browser = (props) => (
+  <Blank {...props}>
+    <BrowserR />
+  </Blank>
+)
+
+export const Check = (props) => (
+  <Blank {...props}>
+    <CheckR />
+  </Blank>
+)
+
+export const Linkout = (props) => (
+  <Blank {...props}>
+    <LinkoutR />
+  </Blank>
+)
+
+export const ID = (props) => (
+  <Blank {...props}>
+    <IDR />
+  </Blank>
+)
+
+export const Trash = (props) => (
+  <Blank {...props}>
+    <TrashR />
+  </Blank>
+)
+
+export const Notification = (props) => (
+  <Blank {...props}>
+    <LightningR />
+  </Blank>
+) 
+
+export const Install = (props) => (
+  <Blank {...props}>
+    <InstallR />
+  </Blank>
+)
+
+export const Edit = (props) => (
+  <Blank {...props}>
+    <EditR />
   </Blank>
 )

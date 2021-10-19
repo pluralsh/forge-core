@@ -4,9 +4,9 @@
 	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 <g id="artwork">
 	<g>
-		<path style="fill:#FFFFFF;" d="M15.3,16H0.2v-1.8c0-0.3,0.2-0.5,0.5-0.5h15.1v1.8C15.8,15.7,15.6,16,15.3,16z"/>
-		<path style="fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;" d="M14.5,3.5l-2.4-2.4c-0.3-0.3-0.8-0.3-1,0
-			L3.1,9l-0.3,2.9l2.9-0.3l6.6-6.6"/>
+		<polyline style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" points="5.5,0.5 8.4,3.4 5.5,6.3 		"/>
+		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M7.7,3.3H3.6C2.7,3.3,2,4,2,4.9v10.2h10.2c0.9,0,1.6-0.7,1.6-1.6
+			V3.4h-2.5"/>
 	</g>
 </g>
 </svg>

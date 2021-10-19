@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="artwork">
+	<g>
+		<path style="fill:#FFFFFF;" d="M9.8,10.7l1.2-1.2l3.3,3.3c0.1,0.1,0.1,0.4,0,0.5l-1.2,1.2l-3.3-3.3C9.6,11.1,9.6,10.8,9.8,10.7z"
+			/>
+		<path style="fill:#FFFFFF;" d="M1.8,2.7l1.2-1.2l3.3,3.3c0.1,0.1,0.1,0.4,0,0.5L5.1,6.5L1.8,3.2C1.6,3,1.6,2.8,1.8,2.7z"/>
+		<path style="fill:#FFFFFF;" d="M10.7,6.2L9.5,5.1l3.3-3.3c0.1-0.1,0.4-0.1,0.5,0l1.2,1.2l-3.3,3.3C11.1,6.4,10.8,6.4,10.7,6.2z"/>
+		<path style="fill:#FFFFFF;" d="M2.9,14.5l-1.2-1.2c-0.1-0.1-0.1-0.4,0-0.5l3.3-3.3l1.2,1.2c0.1,0.1,0.1,0.4,0,0.5L2.9,14.5z"/>
+		<g>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M12.4,13.6c2.6-2,3.5-5.7,2-8.7"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M2.4,12.4c2,2.6,5.7,3.5,8.7,2"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M3.7,2.4C1,4.4,0.1,8,1.6,11.1"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M13.6,3.6c-2-2.6-5.7-3.5-8.7-2"/>
+		</g>
+		<g>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M10.5,11.2c-1.5,1.2-3.6,1.2-5,0"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M11.2,5.5c1.2,1.5,1.2,3.6,0,5"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M5.5,4.8c1.5-1.2,3.6-1.2,5,0"/>
+			<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M4.8,10.5C3.6,9,3.6,7,4.8,5.5"/>
+		</g>
+	</g>
+	<rect style="fill:none;" width="16" height="16"/>
+</g>
+</svg>

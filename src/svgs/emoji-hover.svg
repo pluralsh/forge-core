@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="artwork">
+	<rect y="0" style="fill:none;" width="16" height="16"/>
+	
+		<circle style="fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="8" cy="8" r="7.2"/>
+	<g>
+		<circle style="fill:#FFFFFF;" cx="5.2" cy="6.3" r="0.8"/>
+		<circle style="fill:#FFFFFF;" cx="10.8" cy="6.3" r="0.8"/>
+	</g>
+	<path style="fill:#FFFFFF;" d="M11.9,9.3c-0.4,1.6-2,2.9-3.9,2.9S4.4,11,4.1,9.3H11.9z"/>
+</g>
+</svg>
