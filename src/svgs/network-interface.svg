@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="BG3">
+</g>
+<g id="BG2">
+</g>
+<g id="BG1">
+</g>
+<g id="artwork">
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M1.2,14.8h12.2c0.5,0,0.9-0.4,0.9-0.9v-2.5"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M14.8,9.7H2.6c-0.5,0-0.9,0.4-0.9,0.9v2.5"/>
+	<circle style="fill:#FFFFFF;" cx="4.6" cy="12.2" r="0.9"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M1.7,2.9v2.3c0,0.5,0.4,0.9,0.9,0.9h12.2"/>
+	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8" y1="2.9" x2="8" y2="8"/>
+	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="14.3" y1="2.9" x2="14.3" y2="4.5"/>
+	<circle style="fill:#FFFFFF;" cx="1.7" cy="1.7" r="1.7"/>
+	<circle style="fill:#FFFFFF;" cx="14.3" cy="1.7" r="1.7"/>
+	<circle style="fill:#FFFFFF;" cx="8" cy="1.7" r="1.7"/>
+</g>
+</svg>

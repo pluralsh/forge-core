@@ -25,12 +25,12 @@ ${props => (
 )}
 `;
 
-export function Divider(props) {
+export function Divider({color, text, fontWeight, ...props}) {
   return (
     <ThemeContext.Consumer>
     {theme => (
-      <StyledDivider theme={theme} color={props.color}>
-        {props.text && <Text style={{fontWeight: 500}} size='small'>{props.text}</Text>}
+      <StyledDivider theme={theme} color={color} {...props}>
+        {text && <Text style={{fontWeight: fontWeight || 500}} size='small'>{text}</Text>}
       </StyledDivider>
     )}
     </ThemeContext.Consumer>

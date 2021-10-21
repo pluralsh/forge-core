@@ -8,10 +8,8 @@
 <g id="BG1">
 </g>
 <g id="artwork">
-	<g>
-		<path style="fill:#FFFFFF;" d="M15.3,16H0.2v-1.8c0-0.3,0.2-0.5,0.5-0.5h15.1v1.8C15.8,15.7,15.6,16,15.3,16z"/>
-		<path style="fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;" d="M14.5,3.5l-2.4-2.4c-0.3-0.3-0.8-0.3-1,0
-			L3.1,9l-0.3,2.9l2.9-0.3l6.6-6.6"/>
-	</g>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M10.1,1v2.1c0,0.8,0.6,1.4,1.4,1.4h2.4"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M8.5,1.6H4.5c-0.5,0-1,0.4-1,1v10.2"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M3,14.5h9.3c0.5,0,1-0.4,1-1V6.2"/>
 </g>
 </svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="BG3">
+</g>
+<g id="BG2">
+</g>
+<g id="BG1">
+</g>
+<g id="artwork">
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M9.4,5.4V1.6c0-0.5,0.4-0.9,0.9-0.9h5.5"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M15.2,2.6v11c0,0.5-0.4,0.9-0.9,0.9H9.6"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M0.8,9.9V6.3c0-0.5,0.4-0.9,0.9-0.9h9.2"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M10.3,7.4v3.5c0,0.5-0.4,0.9-0.9,0.9H0.3"/>
+	<circle style="fill:#FFFFFF;" cx="12.4" cy="3.5" r="0.9"/>
+	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="5.3" y1="11.8" x2="5.3" y2="14.4"/>
+	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="2.2" y1="14.4" x2="8.4" y2="14.4"/>
+</g>
+</svg>

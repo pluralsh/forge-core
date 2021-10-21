@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Box, Text } from 'grommet'
-import { Copy, Close, Checkmark } from 'grommet-icons'
+import { Copy, Close, Check as Checkmark } from './icons'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { Pill } from './Pill'
 

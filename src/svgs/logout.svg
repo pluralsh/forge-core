@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g id="BG3">
+</g>
+<g id="BG2">
+</g>
+<g id="BG1">
+</g>
 <g id="artwork">
 	<g>
 		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M1.9,11.4V2.5c0-0.5,0.4-1,1-1h7.2"/>

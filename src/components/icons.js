@@ -7,7 +7,7 @@ import AddUserR from '../svgs/+person.svg'
 import AuditsR from '../svgs/audits.svg'
 import BuildsR from '../svgs/crane.svg'
 import ComponentsR from '../svgs/components.svg'
-import ConfigurationR from '../svgs/wrench.svg'
+import ConfigurationR from '../svgs/gear-train.svg'
 import CreateRoleR from '../svgs/create-role.svg'
 import CredentialsR from '../svgs/ID.svg'
 import DashboardR from '../svgs/dashboard.svg'
@@ -69,6 +69,16 @@ import ShipR from '../svgs/ship.svg'
 import SortAscR from '../svgs/sort-asc.svg'
 import SortDescR from '../svgs/sort-desc.svg'
 import PlanR from '../svgs/plan.svg'
+import ClusterR from '../svgs/cluster.svg'
+import NodeR from '../svgs/computer.svg'
+import CopyR from '../svgs/copy.svg'
+import DeploymentR from '../svgs/deployment.svg'
+import FileR from '../svgs/file.svg'
+import MessagesR from '../svgs/messages.svg'
+import AttachmentR from '../svgs/paperclip.svg'
+import StatefulSetR from '../svgs/pod-with-storage.svg'
+import SendR from '../svgs/send-message.svg'
+import ServiceR from '../svgs/network-interface.svg'
 
 export const Send = (props) => (
   <Blank {...props}>
@@ -76,6 +86,66 @@ export const Send = (props) => (
       <path fill="#32785C" d="M14.51,33l20.99-9l-20.99-9l-0.01,7l15,2l-15,2L14.51,33z"/>
       <path fill="none" d="M0,0h48v48H0V0z"/>
     </svg>
+  </Blank>
+)
+
+export const Service = (props) => (
+  <Blank {...props}>
+    <ServiceR />
+  </Blank>
+)
+
+export const Attachment = (props) => (
+  <Blank {...props}>
+    <AttachmentR />
+  </Blank>
+)
+
+export const StatefulSet = (props) => (
+  <Blank {...props}>
+    <StatefulSetR />
+  </Blank>
+)
+
+export const SendMessage = (props) => (
+  <Blank {...props}>
+    <SendR />
+  </Blank>
+)
+
+export const Messages = (props) => (
+  <Blank {...props}>
+    <MessagesR />
+  </Blank>
+)
+
+export const File = (props) => (
+  <Blank {...props}>
+    <FileR />
+  </Blank>
+)
+
+export const Deployment = (props) => (
+  <Blank {...props}>
+    <DeploymentR />
+  </Blank>
+)
+
+export const Copy = (props) => (
+  <Blank {...props}>
+    <CopyR />
+  </Blank>
+)
+
+export const Node = (props) => (
+  <Blank {...props}>
+    <NodeR />
+  </Blank>
+)
+
+export const Cluster = (props) => (
+  <Blank {...props}>
+    <ClusterR />
   </Blank>
 )
 
