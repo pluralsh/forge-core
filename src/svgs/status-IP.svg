@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="artwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<g id="BG3">
-</g>
-<g id="BG2">
-</g>
-<g id="BG1">
-</g>
-<g id="artwork">
-	<path style="fill:#F2A100;" d="M8,0C3.6,0,0,3.6,0,8s3.6,8,8,8s8-3.6,8-8S12.4,0,8,0z M5.1,8.8C4.6,8.8,4.2,8.5,4.2,8
-		s0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8S5.5,8.8,5.1,8.8z M8,8.8C7.5,8.8,7.2,8.5,7.2,8S7.5,7.2,8,7.2S8.8,7.5,8.8,8S8.5,8.8,8,8.8
-		z M10.9,8.8c-0.5,0-0.8-0.4-0.8-0.8s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S11.4,8.8,10.9,8.8z"/>
-</g>
+<path style="fill:#008631;" d="M8,0C3.6,0,0,3.6,0,8s3.6,8,8,8c4.4,0,8-3.6,8-8S12.4,0,8,0z M6.9,12L3.7,8.8l0.9-0.9l2.2,2.2
+	l4.5-5.7l1,0.8L6.9,12z"/>
 </svg>

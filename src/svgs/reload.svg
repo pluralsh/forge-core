@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="artwork" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<g id="BG3">
-</g>
-<g id="BG2">
-</g>
-<g id="BG1">
-</g>
-<g id="artwork">
-	<g>
-		<polyline style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" points="5.5,0.5 8.4,3.4 5.5,6.3 		"/>
-		<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M7.7,3.3H3.6C2.7,3.3,2,4,2,4.9v10.2h10.2c0.9,0,1.6-0.7,1.6-1.6
-			V3.4h-2.5"/>
-	</g>
+<g>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" points="5.5,0.5 8.4,3.4 5.5,6.3 	"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M7.7,3.3H3.6C2.7,3.3,2,4,2,4.9v10.2h10.2c0.9,0,1.6-0.7,1.6-1.6
+		V3.4h-2.7"/>
 </g>
 </svg>

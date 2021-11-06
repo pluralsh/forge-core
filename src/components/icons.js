@@ -70,15 +70,22 @@ import SortAscR from '../svgs/sort-asc.svg'
 import SortDescR from '../svgs/sort-desc.svg'
 import PlanR from '../svgs/plan.svg'
 import ClusterR from '../svgs/cluster.svg'
-import NodeR from '../svgs/computer.svg'
+import NodeR from '../svgs/computer-node.svg'
 import CopyR from '../svgs/copy.svg'
 import DeploymentR from '../svgs/deployment.svg'
 import FileR from '../svgs/file.svg'
 import MessagesR from '../svgs/messages.svg'
 import AttachmentR from '../svgs/paperclip.svg'
-import StatefulSetR from '../svgs/pod-with-storage.svg'
+import StatefulSetR from '../svgs/volumes.svg'
 import SendR from '../svgs/send-message.svg'
 import ServiceR from '../svgs/network-interface.svg'
+import CreatePublisherR from '../svgs/+market.svg'
+import ChronJobR from '../svgs/chronjob.svg'
+import IngressR from '../svgs/network-in.svg'
+import JobR from '../svgs/suitcase.svg'
+import StatusOkR from '../svgs/status-ok.svg'
+import StatusErrorR from '../svgs/status-problem.svg'
+import StatusProgressR from '../svgs/status-ip.svg'
 
 export const Send = (props) => (
   <Blank {...props}>
@@ -86,6 +93,48 @@ export const Send = (props) => (
       <path fill="#32785C" d="M14.51,33l20.99-9l-20.99-9l-0.01,7l15,2l-15,2L14.51,33z"/>
       <path fill="none" d="M0,0h48v48H0V0z"/>
     </svg>
+  </Blank>
+)
+
+export const StatusOk = (props) => (
+  <Blank {...props}>
+    <StatusOkR />
+  </Blank>
+)
+
+export const StatusError = (props) => (
+  <Blank {...props}>
+    <StatusErrorR />
+  </Blank>
+)
+
+export const StatusProgress = (props) => (
+  <Blank {...props}>
+    <StatusProgressR />
+  </Blank>
+)
+
+export const Job = (props) => (
+  <Blank {...props}>
+    <JobR />
+  </Blank>
+)
+
+export const CreatePublisher = (props) => (
+  <Blank {...props}>
+    <CreatePublisherR />
+  </Blank>
+)
+
+export const ChronJob = (props) => (
+  <Blank {...props}>
+    <ChronJobR />
+  </Blank>
+)
+
+export const Ingress = (props) => (
+  <Blank {...props}>
+    <IngressR />
   </Blank>
 )
 
