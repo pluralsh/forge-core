@@ -1,6 +1,6 @@
 {
   "name": "forge-core",
-  "version": "1.3.25",
+  "version": "1.3.26",
   "description": "utility components for apps within the forge ecosystem",
   "main": "dist/index.js",
   "files": [

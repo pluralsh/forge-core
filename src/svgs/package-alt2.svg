@@ -6,7 +6,7 @@
 	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M0.5,12.9V7.4c0-0.9,0.7-1.6,1.6-1.6H16"/>
 	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M0.5,4.6V2.2c0-0.9,0.7-1.6,1.6-1.6H16"/>
 	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M15.5,8.3v5.5c0,0.9-0.7,1.6-1.6,1.6H0"/>
-	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="8" y1="0.6" x2="8" y2="9.3"/>
 	<line style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" x1="15.5" y1="2.6" x2="15.5" y2="4.2"/>
+	<rect x="6.8" y="0.8" style="fill:#FFFFFF;" width="3" height="8.2"/>
 </g>
 </svg>
