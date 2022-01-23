@@ -86,6 +86,13 @@ import JobR from '../svgs/suitcase.svg'
 import StatusOkR from '../svgs/status-ok.svg'
 import StatusErrorR from '../svgs/status-problem.svg'
 import StatusProgressR from '../svgs/status-ip.svg'
+import DiscordR from '../svgs/discord.svg'
+
+export const Discord = (props) => (
+  <Blank {...props}>
+    <DiscordR />
+  </Blank>
+)
 
 export const Send = (props) => (
   <Blank {...props}>
