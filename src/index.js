@@ -1,5 +1,4 @@
 export * from './components/BotIcon'
-export * from './components/Breadcrumbs'
 export * from './components/Button'
 export * from './components/Carousel'
 export * from './components/CellMeasurer'
