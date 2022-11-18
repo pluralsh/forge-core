@@ -1742,7 +1742,7 @@ __metadata:
     react-select: ^4.3.1
     react-spinners: 0.9.0
     react-styleguidist: 11.0.11
-    rollup: 2.23.0
+    rollup: 2.23.1
     rollup-plugin-babel: 4.4.0
     rollup-plugin-commonjs: 10.1.0
     rollup-plugin-node-resolve: 5.2.0
@@ -10914,9 +10914,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.23.0":
-  version: 2.23.0
-  resolution: "rollup@npm:2.23.0"
+"rollup@npm:2.23.1":
+  version: 2.23.1
+  resolution: "rollup@npm:2.23.1"
   dependencies:
     fsevents: ~2.1.2
   dependenciesMeta:
@@ -10924,7 +10924,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: a65b796ec98c4feae96973ab7702edf8b2043d7252dbfc619f2cc4a563e934725a4b9df13a9399fb375130b9a0bf587cd6a9db6736bee8df4ee41c2933946647
+  checksum: 16020cedfb6d1f7f2055cb334f4cb823d5ada7c994242dc0033f79cef28b3e4bc0e0d60afda1f10033a4a204e7a6eca7800d2d2f6f12564a671ad7f643506d04
   languageName: node
   linkType: hard
 
