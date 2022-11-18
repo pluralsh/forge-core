@@ -1263,13 +1263,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brainhubeu/react-carousel@npm:1.19.24":
-  version: 1.19.24
-  resolution: "@brainhubeu/react-carousel@npm:1.19.24"
+"@brainhubeu/react-carousel@npm:1.19.26":
+  version: 1.19.26
+  resolution: "@brainhubeu/react-carousel@npm:1.19.26"
   peerDependencies:
     react: ">0.14.0 || >15.0.0"
     react-dom: ">0.14.0 || >15.0.0"
-  checksum: 3bb387225be4f6ba2b966294faa006e80077201c555a367253d7a753c3ecb85323e8cd39510133f2adc81628f3aa45e23a6a12040a0c78cc95240f0ff44774a1
+  checksum: 89f8c67407b3295997194c9c70aef4ef6916a151c3c56db1b74bcd1ad6b130b1400ca1b78eb4dbfd6b49d8f0a0fa6f51d18426675aecd468a85f6f8f73a9a9ad
   languageName: node
   linkType: hard
 
@@ -1674,7 +1674,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": 7.10.4
     "@babel/preset-env": 7.10.4
     "@babel/preset-react": 7.10.4
-    "@brainhubeu/react-carousel": 1.19.24
+    "@brainhubeu/react-carousel": 1.19.26
     "@emotion/core": 10.0.28
     "@emotion/styled": 10.0.27
     babel-loader: 8.1.0
