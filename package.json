@@ -58,7 +58,7 @@
     "react-copy-to-clipboard": "5.0.4",
     "react-spinners": "0.9.0",
     "react-styleguidist": "11.0.11",
-    "rollup": "2.23.0",
+    "rollup": "2.23.1",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
