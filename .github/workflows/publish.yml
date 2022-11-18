@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - '*.js'
+    - '**/*.js'
     - 'package.json'
     - 'yarn.lock'
     - '.github/workflows/publish.yml'
