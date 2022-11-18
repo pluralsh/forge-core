@@ -24,6 +24,9 @@
     "url": "https://github.com/pluralsh/forge-core/issues"
   },
   "homepage": "https://github.com/pluralsh/forge-core#readme",
+  "engines": {
+    "node": "18.12.1"
+  },
   "peerDependencies": {
     "grommet": "^2.14.0",
     "grommet-icons": "^4.4.0",
@@ -78,6 +81,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "extract-text-webpack-plugin": "^3.0.2",
+    "node-gyp": "^9.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-select": "^4.3.1",
