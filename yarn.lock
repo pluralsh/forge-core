@@ -1687,7 +1687,7 @@ __metadata:
     grommet: 2.14.0
     grommet-icons: 4.4.0
     node-gyp: ^9.3.0
-    parcel-bundler: 1.12.4
+    parcel-bundler: 1.12.5
     react: ^16.13.1
     react-collapsible: 2.8.0
     react-copy-to-clipboard: 5.0.2
@@ -8406,10 +8406,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-forge@npm:^0.7.1":
-  version: 0.7.6
-  resolution: "node-forge@npm:0.7.6"
-  checksum: 661d420847da736d82f3aad0e8ad2b5fceddc4bd5f4065b923c566e9fd68e568509677374f101c1f4321c541dcbef0864516a2a55ff03a9236d0895195dfa7aa
+"node-forge@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "node-forge@npm:0.10.0"
+  checksum: 5aa6dc9922e424a20ef101d2f517418e2bc9cfc0255dd22e0701c0fad1568445f510ee67f6f3fcdf085812c4ca1b847b8ba45683b34776828e41f5c1794e42e1
   languageName: node
   linkType: hard
 
@@ -8940,9 +8940,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parcel-bundler@npm:1.12.4":
-  version: 1.12.4
-  resolution: "parcel-bundler@npm:1.12.4"
+"parcel-bundler@npm:1.12.5":
+  version: 1.12.5
+  resolution: "parcel-bundler@npm:1.12.5"
   dependencies:
     "@babel/code-frame": ^7.0.0
     "@babel/core": ^7.4.4
@@ -8987,7 +8987,7 @@ __metadata:
     json5: ^1.0.1
     micromatch: ^3.0.4
     mkdirp: ^0.5.1
-    node-forge: ^0.7.1
+    node-forge: ^0.10.0
     node-libs-browser: ^2.0.0
     opn: ^5.1.0
     postcss: ^7.0.11
@@ -9005,7 +9005,7 @@ __metadata:
     ws: ^5.1.1
   bin:
     parcel: bin/cli.js
-  checksum: cda50559b14a4c8ec236dcbf8e1ff4b16a57e9f7488fdebef842c425ba9307110d2c2d8069eae307f50c151de05134bf8dfddbeb9ed36e886e044e5d8aceb90d
+  checksum: 1abb3776b26ddd5e9e09026785e43600c0bf1c56fdde8d61a6bc93cb9a37d1327517b7a2db1533e9ef0282deb630087949e922b2d1a51146aa1fa8c11f44fbfe
   languageName: node
   linkType: hard
 
