@@ -1,5 +1,5 @@
 {
-  "name": "forge-core",
+  "name": "@pluralsh/forge-core",
   "version": "1.4.6",
   "description": "utility components for apps within the forge ecosystem",
   "main": "dist/index.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaeljguarino/forge-core.git"
+    "url": "git+https://github.com/pluralsh/forge-core.git"
   },
   "author": "michaeljguarino <mguarino46@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaeljguarino/forge-core/issues"
+    "url": "https://github.com/pluralsh/forge-core/issues"
   },
-  "homepage": "https://github.com/michaeljguarino/forge-core#readme",
+  "homepage": "https://github.com/pluralsh/forge-core#readme",
   "peerDependencies": {
     "grommet": "^2.14.0",
     "grommet-icons": "^4.4.0",
