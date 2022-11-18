@@ -1749,7 +1749,7 @@ __metadata:
     rollup-plugin-peer-deps-external: 2.2.4
     rollup-plugin-terser: 6.1.0
     rollup-plugin-uglify: 6.0.4
-    sass-loader: 9.0.2
+    sass-loader: 9.0.3
     scroll-into-view: 1.14.2
     style-loader: 1.2.1
     styled-components: ^5.1.1
@@ -7567,7 +7567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^1.1.1":
+"klona@npm:^1.1.2":
   version: 1.1.2
   resolution: "klona@npm:1.1.2"
   checksum: e9f3e46c73127594a52d7a0b65a831df781772ca09f87285568192357c86948795b9709ef11d86280320fe7c1182a1b6d52218e856ef8eec7034738588980f44
@@ -10983,13 +10983,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:9.0.2":
-  version: 9.0.2
-  resolution: "sass-loader@npm:9.0.2"
+"sass-loader@npm:9.0.3":
+  version: 9.0.3
+  resolution: "sass-loader@npm:9.0.3"
   dependencies:
-    klona: ^1.1.1
+    klona: ^1.1.2
     loader-utils: ^2.0.0
-    neo-async: ^2.6.1
+    neo-async: ^2.6.2
     schema-utils: ^2.7.0
     semver: ^7.3.2
   peerDependencies:
@@ -11004,7 +11004,7 @@ __metadata:
       optional: true
     sass:
       optional: true
-  checksum: b469f06857e75afd1964911006f502c74efffeec5bc37b664c0e6dd8f7acd5d6e2f259c8464c29d2d3c5519c52aad32229fdac2ed6985b1f761b3cffc52d5487
+  checksum: 3c42c33308c876f5ac0accdea1020a082b148bd920584b96ef6886e00deade9c68b297501252f62d89fd6dc52711c6a6cbba0e343c8cbb8c732204de3ce82085
   languageName: node
   linkType: hard
 
