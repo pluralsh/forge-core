@@ -1746,7 +1746,7 @@ __metadata:
     rollup-plugin-babel: 4.4.0
     rollup-plugin-commonjs: 10.1.0
     rollup-plugin-node-resolve: 5.2.0
-    rollup-plugin-peer-deps-external: 2.2.3
+    rollup-plugin-peer-deps-external: 2.2.4
     rollup-plugin-terser: 6.1.0
     rollup-plugin-uglify: 6.0.4
     sass-loader: 9.0.2
@@ -10868,12 +10868,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-peer-deps-external@npm:2.2.3":
-  version: 2.2.3
-  resolution: "rollup-plugin-peer-deps-external@npm:2.2.3"
+"rollup-plugin-peer-deps-external@npm:2.2.4":
+  version: 2.2.4
+  resolution: "rollup-plugin-peer-deps-external@npm:2.2.4"
   peerDependencies:
     rollup: "*"
-  checksum: 99866a412f9ff3825b8251ae4d49edc711c12535e263fc0e88ae4f339fcda09d339bfcc6e9a6d2a8290796bff955675e2fa6dd26cbc80ee9708e8920192ab46a
+  checksum: 597bc7631f4e3cfc066a7da4e09e507258aba932008148328c1a4b48e7ffa755592ef4bcf0165320bbd5019afbdd326f569cd0c68406d820da9ab52e971c009b
   languageName: node
   linkType: hard
 
