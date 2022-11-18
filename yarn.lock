@@ -1310,7 +1310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
   version: 7.13.10
   resolution: "@babel/runtime@npm:7.13.10"
   dependencies:
@@ -1837,7 +1837,7 @@ __metadata:
     babel-plugin-transform-react-jsx: ^6.24.1
     css-loader: 3.6.0
     extract-text-webpack-plugin: ^3.0.2
-    grommet: 2.14.0
+    grommet: 2.27.0
     grommet-icons: 4.4.0
     node-gyp: ^9.3.0
     parcel-bundler: 1.12.5
@@ -6144,7 +6144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grommet-icons@npm:4.4.0, grommet-icons@npm:^4.2.0":
+"grommet-icons@npm:4.4.0":
   version: 4.4.0
   resolution: "grommet-icons@npm:4.4.0"
   dependencies:
@@ -6154,6 +6154,19 @@ __metadata:
     react-dom: ">= 16.6.0"
     styled-components: ">= 4.x"
   checksum: 604350395904b67f596b74ba4ea01f944969ace2db1d4e5ac67132edf220a386f0520171f3a961c91848f115fcb6ffdf8571db7da39f073de74d8d9759f12d9a
+  languageName: node
+  linkType: hard
+
+"grommet-icons@npm:^4.7.0":
+  version: 4.8.0
+  resolution: "grommet-icons@npm:4.8.0"
+  dependencies:
+    grommet-styles: ^0.2.0
+  peerDependencies:
+    react: ^16.6.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
+    styled-components: ">= 5.x"
+  checksum: 7c0871a7ddd0cdff938d03ab08ad1fe56cbb5cbe9a2a8cece99de19641f140caf917c8a589a3bcdd2a28562083d9141e07fb5bd1fb188696d82c3815a33fbb4d
   languageName: node
   linkType: hard
 
@@ -6168,21 +6181,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grommet@npm:2.14.0":
-  version: 2.14.0
-  resolution: "grommet@npm:2.14.0"
+"grommet@npm:2.27.0":
+  version: 2.27.0
+  resolution: "grommet@npm:2.27.0"
   dependencies:
-    grommet-icons: ^4.2.0
+    grommet-icons: ^4.7.0
     hoist-non-react-statics: ^3.2.0
-    markdown-to-jsx: ^6.11.4
-    polished: ^3.4.1
-    prop-types: ^15.7.2
-    react-desc: ^4.1.2
+    markdown-to-jsx: ^7.1.5
+    prop-types: ^15.8.1
   peerDependencies:
-    react: ">= 16.6.1"
-    react-dom: ">= 16.6.1"
-    styled-components: ">= 5.X"
-  checksum: 648b51cab1db2569683484bd7b33d4b6f26777030a4feba5478c7a4eea69439eed5d38e3b68601b5302516ecbb8abbb8b9458fa26ec20365f3287f5ebdd58c39
+    react: ^16.6.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.6.1 || ^17.0.0 || ^18.0.0
+    styled-components: ">= 5.1"
+  checksum: 6d43e25090877de0f994713d386ba8cf745c365799bbc5b2fd215d3a5b17b2d6910fe832f4f3a208c1d718ffad78746aaba8df9e1ba76c2c5e6c364f17a69b35
   languageName: node
   linkType: hard
 
@@ -7981,6 +7992,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-to-jsx@npm:^7.1.5":
+  version: 7.1.7
+  resolution: "markdown-to-jsx@npm:7.1.7"
+  peerDependencies:
+    react: ">= 0.14.0"
+  checksum: b2c0ea7d0988fad0c709989b3b1b3a5600d1e80b60266f9618386f7afead4a6b5eba9ee1a3943df6a3dcb1599ea89e58467d1b17b6dd3af3c60984c60a85d06d
+  languageName: node
+  linkType: hard
+
 "md5.js@npm:^1.3.4":
   version: 1.3.5
   resolution: "md5.js@npm:1.3.5"
@@ -9343,15 +9363,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"polished@npm:^3.4.1":
-  version: 3.6.5
-  resolution: "polished@npm:3.6.5"
-  dependencies:
-    "@babel/runtime": ^7.9.2
-  checksum: 25d3869feb5275feeeb72833c3b5c42fc417c44c697213fb9d9b2f9c6e7e41a3637d0933757f337aeaf91dcef342b6a2fe47996fee8f70e8b2e539a9b77c6cc5
-  languageName: node
-  linkType: hard
-
 "portfinder@npm:^1.0.26":
   version: 1.0.27
   resolution: "portfinder@npm:1.0.27"
@@ -9902,14 +9913,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
-  version: 15.7.2
-  resolution: "prop-types@npm:15.7.2"
+"prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
   dependencies:
     loose-envify: ^1.4.0
     object-assign: ^4.1.1
-    react-is: ^16.8.1
-  checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
   languageName: node
   linkType: hard
 
@@ -10136,16 +10147,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-desc@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "react-desc@npm:4.1.2"
-  peerDependencies:
-    prop-types: 15.x
-    react: ">= 15.5.4 < 16 || 16.x"
-  checksum: 82046a00811f2302df3b82de825c0957bbe56497f08b0fdec836f8247c62da6e22049766330f66666bce333c5e3efe03ab0e2cb5516d22201c3d00b107992a4d
-  languageName: node
-  linkType: hard
-
 "react-dev-utils@npm:^9.1.0":
   version: 9.1.0
   resolution: "react-dev-utils@npm:9.1.0"
@@ -10269,7 +10270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
