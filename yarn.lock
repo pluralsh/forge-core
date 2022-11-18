@@ -1327,9 +1327,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/core@npm:10.0.28, @emotion/core@npm:^10.0.15":
-  version: 10.0.28
-  resolution: "@emotion/core@npm:10.0.28"
+"@emotion/core@npm:10.0.35, @emotion/core@npm:^10.0.15":
+  version: 10.0.35
+  resolution: "@emotion/core@npm:10.0.35"
   dependencies:
     "@babel/runtime": ^7.5.5
     "@emotion/cache": ^10.0.27
@@ -1339,7 +1339,7 @@ __metadata:
     "@emotion/utils": 0.11.3
   peerDependencies:
     react: ">=16.3.0"
-  checksum: bc2a1f879f9f1d5e243dbdd39b36b369e61bb005729b3387af7083f0ab7b1fae4b5a50a7285d8dab4c94a87f30f0ed391edbf6008b18ab832a007afea17713e3
+  checksum: a1f5d0b55b5b8074678e5ee52dabf0c55bc86842c7b94b40b412a721c3cb91e57aa7b7742a841e5d96597721dbed4d66ead06d28766051f167048c92a534a6f7
   languageName: node
   linkType: hard
 
@@ -1675,7 +1675,7 @@ __metadata:
     "@babel/preset-env": 7.10.4
     "@babel/preset-react": 7.10.4
     "@brainhubeu/react-carousel": 1.19.26
-    "@emotion/core": 10.0.28
+    "@emotion/core": 10.0.35
     "@emotion/styled": 10.0.27
     babel-loader: 8.1.0
     babel-plugin-inline-react-svg: 2.0.1
