@@ -1423,7 +1423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/core@npm:10.0.35, @emotion/core@npm:^10.0.15":
+"@emotion/core@npm:10.0.35":
   version: 10.0.35
   resolution: "@emotion/core@npm:10.0.35"
   dependencies:
@@ -1846,7 +1846,7 @@ __metadata:
     react-copy-to-clipboard: 5.1.0
     react-dom: ^16.13.1
     react-select: ^4.3.1
-    react-spinners: 0.9.0
+    react-spinners: 0.13.6
     react-styleguidist: 11.0.11
     rollup: 2.23.1
     rollup-plugin-babel: 4.4.0
@@ -10292,15 +10292,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-spinners@npm:0.9.0":
-  version: 0.9.0
-  resolution: "react-spinners@npm:0.9.0"
-  dependencies:
-    "@emotion/core": ^10.0.15
+"react-spinners@npm:0.13.6":
+  version: 0.13.6
+  resolution: "react-spinners@npm:0.13.6"
   peerDependencies:
-    react: ^16.0.0
-    react-dom: ^16.0.0
-  checksum: 28cca8b2131a071e42515fe4c972a98176c5b29496b5aad8e8d24d6a9c168ad241d78d643bd956db61390083ce3dad8db8ab12cb60a39168d121752e7f1d7339
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 0e557190b5811e62774de0000f91fdcc3afe845872084abd5620d16335eb8292ed3fb3fdb94527fe2802a8366ac4e5d42c8e5bffda9e8ed0d85d3c34b3829d8e
   languageName: node
   linkType: hard
 

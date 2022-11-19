@@ -56,7 +56,7 @@
     "parcel-bundler": "1.12.5",
     "react-collapsible": "2.10.0",
     "react-copy-to-clipboard": "5.1.0",
-    "react-spinners": "0.9.0",
+    "react-spinners": "0.13.6",
     "react-styleguidist": "11.0.11",
     "rollup": "2.23.1",
     "rollup-plugin-babel": "4.4.0",
