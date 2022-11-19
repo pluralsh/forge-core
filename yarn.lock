@@ -1842,7 +1842,7 @@ __metadata:
     node-gyp: ^9.3.0
     parcel-bundler: 1.12.5
     react: ^16.13.1
-    react-collapsible: 2.8.4
+    react-collapsible: 2.10.0
     react-copy-to-clipboard: 5.0.4
     react-dom: ^16.13.1
     react-select: ^4.3.1
@@ -10112,13 +10112,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-collapsible@npm:2.8.4":
-  version: 2.8.4
-  resolution: "react-collapsible@npm:2.8.4"
+"react-collapsible@npm:2.10.0":
+  version: 2.10.0
+  resolution: "react-collapsible@npm:2.10.0"
   peerDependencies:
-    react: ~15 || ~16 || ~17
-    react-dom: ~15 || ~16 || ~17
-  checksum: cbb42a0dbdabc71e50725dd53f0f8c03cd8e94a1a33a385e799b56bd2d8a822771cd524bc0503e572b23c82d83fa7259378d9ca0166a65e45a18cba277fae917
+    react: ~15 || ~16 || ~17 || ~18
+    react-dom: ~15 || ~16 || ~17 || ~18
+  checksum: f7a883eb7c4aa91916378dfd4c98dc92a32bbdb4d6b8fad179e34ad1f2bbbab35446f5f6e126d699427bc67d1d70909c69f6be4ee744251bea4e17c7d10be2f3
   languageName: node
   linkType: hard
 
