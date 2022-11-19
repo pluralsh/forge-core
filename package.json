@@ -52,7 +52,7 @@
     "babel-plugin-inline-react-svg": "2.0.1",
     "css-loader": "3.6.0",
     "grommet": "2.27.0",
-    "grommet-icons": "4.4.0",
+    "grommet-icons": "4.8.0",
     "parcel-bundler": "1.12.5",
     "react-collapsible": "2.8.4",
     "react-copy-to-clipboard": "5.0.4",
