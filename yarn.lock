@@ -1847,7 +1847,7 @@ __metadata:
     rollup-plugin-terser: 6.1.0
     rollup-plugin-uglify: 6.0.4
     sass-loader: 9.0.3
-    scroll-into-view: 1.14.2
+    scroll-into-view: 1.16.2
     style-loader: 1.2.1
     styled-components: ^5.1.1
     webpack: 5.75.0
@@ -11087,10 +11087,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scroll-into-view@npm:1.14.2":
-  version: 1.14.2
-  resolution: "scroll-into-view@npm:1.14.2"
-  checksum: 11828bad48bdc3d24594b1e3bfbe895b29b4e2fa49d9d284ff0afe70ced5217e44a0449e1d6e54cbd6627f0a3ba2ade70080ba9db9998f0f6b76baadcd7ef57d
+"scroll-into-view@npm:1.16.2":
+  version: 1.16.2
+  resolution: "scroll-into-view@npm:1.16.2"
+  checksum: 57a434ab9e31da143c43c40bdc38039be97a8eaecb852a614bb7218e34c148f6cb0beadd230742a28d3ec6c9e479161e7527b0ccf0b7311c1664c64c40814649
   languageName: node
   linkType: hard
 
