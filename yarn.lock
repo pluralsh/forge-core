@@ -1824,7 +1824,7 @@ __metadata:
     "@emotion/core": 10.3.1
     "@emotion/styled": 10.3.0
     babel-loader: 8.3.0
-    babel-plugin-inline-react-svg: 2.0.1
+    babel-plugin-inline-react-svg: 2.0.2
     babel-plugin-module-resolver: ^4.0.0
     babel-plugin-transform-object-rest-spread: ^6.26.0
     babel-plugin-transform-react-jsx: ^6.24.1
@@ -2810,18 +2810,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-inline-react-svg@npm:2.0.1":
-  version: 2.0.1
-  resolution: "babel-plugin-inline-react-svg@npm:2.0.1"
+"babel-plugin-inline-react-svg@npm:2.0.2":
+  version: 2.0.2
+  resolution: "babel-plugin-inline-react-svg@npm:2.0.2"
   dependencies:
     "@babel/helper-plugin-utils": ^7.0.0
     "@babel/parser": ^7.0.0
     lodash.isplainobject: ^4.0.6
-    resolve: ^1.20.0
-    svgo: ^2.0.3
+    resolve: ^2.0.0-next.4
+    svgo: ^2.8.0
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: aa41d72283655d7579ec6622ba8c71c791e7ec9c8885d49e522a7ebea202d37e81de0ba438ee0fcce5822d210002e60451d3fb9e660661e21e52728f3e94da12
+  checksum: f0652e75d0a671c593f45c91388ab825d13dd0b244870eb8541a81a7c93ccd0f2dfc5d7596a34784feaa77529a09a717c47a36ad6350a92cb57d12c5e005c4a1
   languageName: node
   linkType: hard
 
@@ -10783,6 +10783,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve@npm:^2.0.0-next.4":
+  version: 2.0.0-next.4
+  resolution: "resolve@npm:2.0.0-next.4"
+  dependencies:
+    is-core-module: ^2.9.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: c438ac9a650f2030fd074219d7f12ceb983b475da2d89ad3d6dd05fbf6b7a0a8cd37d4d10b43cb1f632bc19f22246ab7f36ebda54d84a29bfb2910a0680906d3
+  languageName: node
+  linkType: hard
+
 "resolve@patch:resolve@^1.1.5#~builtin<compat/resolve>, resolve@patch:resolve@^1.11.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.11.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.4.0#~builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
@@ -10793,6 +10806,19 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
+  version: 2.0.0-next.4
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  dependencies:
+    is-core-module: ^2.9.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: 4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
   languageName: node
   linkType: hard
 
@@ -12010,7 +12036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svgo@npm:^2.0.3":
+"svgo@npm:^2.8.0":
   version: 2.8.0
   resolution: "svgo@npm:2.8.0"
   dependencies:
