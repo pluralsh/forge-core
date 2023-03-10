@@ -1839,7 +1839,7 @@ __metadata:
     react-copy-to-clipboard: 5.1.0
     react-dom: ^16.13.1
     react-select: ^4.3.1
-    react-spinners: 0.13.6
+    react-spinners: 0.13.8
     react-styleguidist: 11.2.0
     rollup: 2.79.1
     rollup-plugin-babel: 4.4.0
@@ -10274,13 +10274,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-spinners@npm:0.13.6":
-  version: 0.13.6
-  resolution: "react-spinners@npm:0.13.6"
+"react-spinners@npm:0.13.8":
+  version: 0.13.8
+  resolution: "react-spinners@npm:0.13.8"
   peerDependencies:
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 0e557190b5811e62774de0000f91fdcc3afe845872084abd5620d16335eb8292ed3fb3fdb94527fe2802a8366ac4e5d42c8e5bffda9e8ed0d85d3c34b3829d8e
+  checksum: cb58f916bbf00c4f7fc33c1a75a8c0f91a98a42af26944340a0e29e4b3a97937a03f0292bc444eb5f5f0bea099344b580f9c04a81524246dadbf0571bdb57e62
   languageName: node
   linkType: hard
 
