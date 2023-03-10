@@ -1831,7 +1831,7 @@ __metadata:
     css-loader: 3.6.0
     extract-text-webpack-plugin: ^3.0.2
     grommet: 2.30.0
-    grommet-icons: 4.8.0
+    grommet-icons: 4.10.0
     node-gyp: ^9.3.0
     parcel-bundler: 1.12.5
     react: ^16.13.1
@@ -6161,16 +6161,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grommet-icons@npm:4.8.0, grommet-icons@npm:^4.8.0":
-  version: 4.8.0
-  resolution: "grommet-icons@npm:4.8.0"
+"grommet-icons@npm:4.10.0, grommet-icons@npm:^4.8.0":
+  version: 4.10.0
+  resolution: "grommet-icons@npm:4.10.0"
   dependencies:
     grommet-styles: ^0.2.0
   peerDependencies:
     react: ^16.6.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
     styled-components: ">= 5.x"
-  checksum: 7c0871a7ddd0cdff938d03ab08ad1fe56cbb5cbe9a2a8cece99de19641f140caf917c8a589a3bcdd2a28562083d9141e07fb5bd1fb188696d82c3815a33fbb4d
+  checksum: 69745341a65f4e4d05bd5b207f7243b5ffa54d13a8195093cae7fb32d57b38ab55ed30cfee341b9f1f659b99743f721ee04c7ab9decd7dd7f171fcc4947af048
   languageName: node
   linkType: hard
 
