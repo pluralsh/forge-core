@@ -1830,7 +1830,7 @@ __metadata:
     babel-plugin-transform-react-jsx: ^6.24.1
     css-loader: 3.6.0
     extract-text-webpack-plugin: ^3.0.2
-    grommet: 2.27.0
+    grommet: 2.30.0
     grommet-icons: 4.8.0
     node-gyp: ^9.3.0
     parcel-bundler: 1.12.5
@@ -6161,7 +6161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grommet-icons@npm:4.8.0, grommet-icons@npm:^4.7.0":
+"grommet-icons@npm:4.8.0, grommet-icons@npm:^4.8.0":
   version: 4.8.0
   resolution: "grommet-icons@npm:4.8.0"
   dependencies:
@@ -6185,11 +6185,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grommet@npm:2.27.0":
-  version: 2.27.0
-  resolution: "grommet@npm:2.27.0"
+"grommet@npm:2.30.0":
+  version: 2.30.0
+  resolution: "grommet@npm:2.30.0"
   dependencies:
-    grommet-icons: ^4.7.0
+    grommet-icons: ^4.8.0
     hoist-non-react-statics: ^3.2.0
     markdown-to-jsx: ^7.1.5
     prop-types: ^15.8.1
@@ -6197,7 +6197,7 @@ __metadata:
     react: ^16.6.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.6.1 || ^17.0.0 || ^18.0.0
     styled-components: ">= 5.1"
-  checksum: 6d43e25090877de0f994713d386ba8cf745c365799bbc5b2fd215d3a5b17b2d6910fe832f4f3a208c1d718ffad78746aaba8df9e1ba76c2c5e6c364f17a69b35
+  checksum: 3fc76e8064b923d2cf41af3433d54af00b56fbd4581e9f647364c19b12b226b39e172dd2cca76d43b4a47a66884a64b43a9ebf61e4d5bc3dd24e40d0d7849d72
   languageName: node
   linkType: hard
 
