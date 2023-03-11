@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/pluralsh/forge-core#readme",
   "engines": {
-    "node": "18.12.1"
+    "node": "18.15.0"
   },
   "peerDependencies": {
     "grommet": "^2.14.0",
