@@ -67,7 +67,7 @@
     "rollup-plugin-uglify": "6.0.4",
     "sass-loader": "9.0.3",
     "scroll-into-view": "1.16.2",
-    "style-loader": "1.3.0",
+    "style-loader": "3.3.4",
     "webpack": "5.76.1",
     "webpack-cli": "5.0.1"
   },
